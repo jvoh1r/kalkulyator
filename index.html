@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulyator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <div class="calc">
+    <div class="display" id="display">0</div>
+
+    <div class="btns">
+      <button onclick="clearDisplay()" class="clear">C</button>
+      <button onclick="inputVal('%')" class="op">%</button>
+      <button onclick="inputVal('^')" class="op">xʸ</button>
+      <button onclick="inputVal('/')" class="op">÷</button>
+
+      <button onclick="inputVal('7')">7</button>
+      <button onclick="inputVal('8')">8</button>
+      <button onclick="inputVal('9')">9</button>
+      <button onclick="inputVal('*')" class="op">×</button>
+
+      <button onclick="inputVal('4')">4</button>
+      <button onclick="inputVal('5')">5</button>
+      <button onclick="inputVal('6')">6</button>
+      <button onclick="inputVal('-')" class="op">−</button>
+
+      <button onclick="inputVal('1')">1</button>
+      <button onclick="inputVal('2')">2</button>
+      <button onclick="inputVal('3')">3</button>
+      <button onclick="inputVal('+')" class="op">+</button>
+
+      <button onclick="inputVal('0')">0</button>
+      <button onclick="inputVal('.')">.</button>
+      <button onclick="calc()" class="eq">=</button>
+    </div>
+  </div>
+
+<script src="app.js">
+</script>
+
+</body>
+</html>
